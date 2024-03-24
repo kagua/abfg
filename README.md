@@ -1,3 +1,3 @@
-# abfg
+# denden-lp-html
 
-Chrome拡張です。PageInsightや文字数カウントなど、いろいろ詰め合わせです。
+ Kindle本の書籍紹介ランディングページのHTML版です。
