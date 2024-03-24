@@ -1,0 +1,27 @@
+﻿
+{
+
+	"name": "アブフグ",
+	"short_name": "ABFG2",
+	"manifest_version":3,
+	"version":"2.1.0.5",
+	"description":"YouTubeやGoogleトレンドなどいろいろ検索。ページ上で右クリック OR 文字選択で右クリック、で動作するんじゃぁねぇぇか！",
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"clipboardWrite",
+		"scripting",
+		"contextMenus"
+	],
+
+	"options_page" : "options.html",
+
+	"icons":{
+		"16":"escs.png",
+		"48":"escs48.png",
+		"128":"escs128.png"
+	},
+	"background": {
+		"service_worker": "background.js"
+	}
+}
